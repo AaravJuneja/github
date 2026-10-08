@@ -1,0 +1,30 @@
+{
+  "name": "github",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "bun run typecheck && vite build",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "preview": "vite preview",
+    "worker:dev": "wrangler dev",
+    "worker:deploy": "bun run build && wrangler deploy",
+    "worker:dry-run": "bun run build && wrangler deploy --dry-run",
+    "cf:setup": "bash scripts/turso-setup.sh",
+    "db:schema": "turso db shell github < db/schema.sql",
+    "db:shell": "turso db shell github",
+    "db:seed": "bun scripts/seed-contributions.js"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.18.0",
+    "bcryptjs": "^3.0.3",
+    "hono": "^4.13.13",
+    "jose": "^6.2.12"
+  },
+  "devDependencies": {
+    "typescript": "7.0.2",
+    "vite": "8.3.4",
+    "wrangler": "^4.148.0"
+  }
+}

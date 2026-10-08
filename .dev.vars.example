@@ -1,0 +1,5 @@
+TURSO_DATABASE_URL="libsql://github-juneja.aws-ap-northeast-1.turso.io"
+TURSO_AUTH_TOKEN="paste-turso-token-here"
+JWT_SECRET="paste-min-16-char-secret-here"
+STRIPE_SECRET_KEY="paste-sk-test-key-here"
+ENVIRONMENT="dev"

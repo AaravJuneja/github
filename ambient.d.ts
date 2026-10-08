@@ -1,0 +1,15 @@
+declare const document: any;
+declare const window: any;
+declare const navigator: any;
+declare const localStorage: any;
+declare const sessionStorage: any;
+declare const location: any;
+declare const history: any;
+declare const fetch: any;
+declare const alert: any;
+declare const FormData: any;
+declare function setTimeout(handler: (...args: any[]) => void, timeout?: number, ...args: any[]): any;
+declare function clearTimeout(handle?: any): void;
+declare function setInterval(handler: (...args: any[]) => void, timeout?: number, ...args: any[]): any;
+declare function clearInterval(handle?: any): void;
+declare function queueMicrotask(callback: () => void): void;
