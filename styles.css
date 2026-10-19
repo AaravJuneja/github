@@ -4690,7 +4690,7 @@ table.compare tbody th {
   display: block;
   height: 100%;
   border-radius: inherit;
-  background: linear-gradient(90deg, #7660d8, #50d884);
+  background: #7660d8;
 }
 
 .ai-row__meta {
