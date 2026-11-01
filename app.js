@@ -284,8 +284,8 @@ function legacyHomePage() {
       <button class="mobile-nav-backdrop" type="button" aria-label="Close menu" data-mobile-nav-close hidden></button>
       <section class="landing-hero" id="main-content" tabindex="-1">
         <div class="hero-copy">
-          <h1>Build and ship software on a<br class="desktop-break" /> single, collaborative platform</h1>
-          <p class="hero-subtitle">Join the world’s most widely adopted developer platform. Plan, code, review, automate, and secure every release in one place.</p>
+          <h1>Code, review, and ship from one place</h1>
+          <p class="hero-subtitle">Manage repositories, pull requests, issues, automation, and security in one workspace.</p>
           <form class="hero-signup" data-hero-signup novalidate>
             <label class="sr-only" for="hero-email">Enter your email</label>
             <input id="hero-email" name="email" type="email" required placeholder="Enter your email" autocomplete="email" />
